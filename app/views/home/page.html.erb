@@ -1,0 +1,23 @@
+
+<!-- <% if user_signed_in? %> -->
+
+
+<div class="jumbotron">
+  <h1>Welcome to my first instagram app!</h1>
+  <p>Im trying real hard</p>
+  <p><a class="btn btn-primary btn-lg" href="/users/sign_in" role="button">Sign in</a></p>
+  <p><a class="btn btn-primary btn-lg" href="/profiles/new" role="button">Register</a></p>
+  <%= link_to 'Sign out', destroy_user_session_path, method: :delete, class: "btn btn-primary btn-lg" %>
+</div>
+
+<!--
+<% else  %>
+
+<div class="jumbotron">
+  <h1>Welcome to my first instagram app!</h1>
+  <p>Im trying real hard</p>
+  <p><a class="btn btn-primary btn-lg" href="/users/sign_in" role="button">Sign in</a></p>
+  <p><a class="btn btn-primary btn-lg" href="/profiles/new" role="button">it works</a></p>
+</div>
+
+<% end %> -->
